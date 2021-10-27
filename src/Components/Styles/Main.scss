@@ -1,0 +1,108 @@
+@import "../Styles/setting";
+
+@import './variables';
+
+.main {
+  background-color: $main-color;
+  height: 86vh;
+  width: 100vw;
+
+  #{&}-content {
+    margin: 0px auto;
+    width: 65%;
+    padding: 20px;
+  }
+  #{&}-h1 {
+    margin: 0;
+    font-size: 25px;
+  }
+  #{&}-p {
+    font-size: 14px;
+  }
+  #{&}-down {
+    display: flex;
+    margin: 0px auto;
+    width: 65%;
+    padding: 20px;
+  }
+
+  #{&}-left {
+    background-color:   $text-color;
+    width: 70%;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+  }
+
+  #{&}-leftImg {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+  }
+  #{&}-lefth2 {
+    font-size: 18px;
+  }
+  #{&}-leftp {
+    font-size: 15px;
+    opacity: 0.5;
+    width: 80%;
+    margin: 0px auto;
+    font-weight: 300;
+  }
+
+  #{&}-leftBtn {
+    border: 0.1px solid  $mainBtn;
+    padding: 4px 7px;
+    margin-top: 18px;
+    opacity: 0.7;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $mainBtn-hover;
+    }
+  }
+  //    rigth
+
+  #{&}-right {
+    background-color: $text-color;
+    width: 70%;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  #{&}-rightImg {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+  }
+  #{&}-righth2 {
+    font-size: 18px;
+  }
+  #{&}-rightp {
+    font-size: 15px;
+    opacity: 0.5;
+    width: 80%;
+    margin: 0px auto;
+    font-weight: 300;
+  }
+
+  #{&}-rightBtn {
+    border: 0.1px solid  $mainBtn;
+    padding: 4px 7px;
+    margin-top: 18px;
+    opacity: 0.7;
+    cursor: pointer;
+
+    &:hover {
+      background-color:  $mainBtn-hover;
+    }
+  }
+}
+
+
+

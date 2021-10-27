@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Sans-serif , Helvetica or Arial;
+}
+
+.navbar {
+  color: white;
+  background-color: #3f5499;
+  height: 85px;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .navbar-left {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.navbar .navbar-h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.navbar .navbar-signUp {
+  text-decoration: none;
+  width: 70px;
+  height: 30px;
+  padding: 4px 4px;
+  margin: 45px 0px 0px 10px;
+  color: white;
+  background-color: #46b630;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.navbar .navbar-signUp:hover {
+  background-color: #3d972b;
+}
+
+.navbar .dropdown-btn {
+  background-color: #3f5499;
+  border: none;
+  color: white;
+  font-size: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.navbar .navbar-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=navbar.css.map */
